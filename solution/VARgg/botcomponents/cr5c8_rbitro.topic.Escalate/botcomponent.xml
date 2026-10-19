@@ -1,0 +1,13 @@
+<botcomponent schemaname="cr5c8_rbitro.topic.Escalate">
+  <componenttype>9</componenttype>
+  <description>Este tema del sistema se desencadena cuando el usuario indica que desea hablar con un representante.
+Puede configurar cómo gestionará el agente los escenarios de transferencia a un agente humano en la configuración del agente.
+Si el agente no gestiona las escalaciones, se debe deshabilitar este tema.</description>
+  <iscustomizable>0</iscustomizable>
+  <name>Remitir a un superior</name>
+  <parentbotid>
+    <schemaname>cr5c8_rbitro</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

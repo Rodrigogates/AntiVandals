@@ -1,0 +1,69 @@
+kind: AdaptiveDialog
+startBehavior: CancelOtherTopics
+beginDialog:
+  kind: OnEscalate
+  id: main
+  intent:
+    displayName: Remitir a un superior
+    includeInOnSelectIntent: false
+    triggerQueries:
+      - Hablar con un agente
+      - Hablar con una persona
+      - Hablar con alguien
+      - Devolver llamada
+      - Llamar al servicio al cliente
+      - Llámeme, por favor
+      - Llámame, por favor
+      - Llamar a soporte
+      - Llamar a soporte técnico
+      - Llamar al soporte técnico
+      - ¿Puede llamarme un agente?
+      - ¿Puedo llamar?
+      - ¿Puedo contactar con otra persona?
+      - ¿Puedo ponerme en contacto con otra persona?
+      - ¿Puedo obtener soporte de un agente real?
+      - ¿Me pueden transferir la llamada a una persona?
+      - ¿Me pueden llamar?
+      - ¿Me puede llamar un representante?
+      - ¿Puedo programar una llamada?
+      - ¿Puedo hablar con un representante?
+      - ¿Puedo hablar con un humano?
+      - ¿Puedo hablar con un asistente humano?
+      - ¿Puede llamarme alguien?
+      - Charlar con un humano
+      - Charlar con un representante
+      - Charlar con un agente
+      - Charlar con alguien
+      - Conéctame con un agente por chat
+      - Conécteme con un agente por chat
+      - Conectarme con un agente por chat
+      - Conéctame con una persona
+      - Conécteme con una persona
+      - Conectarme con una persona
+      - ¿Me podría contactar alguien por teléfono?
+      - Agente de atención al cliente
+      - Representante del cliente
+      - Servicio de atención al cliente
+      - Necesito hablar con un responsable
+      - Necesito que un responsable se ponga en contacto conmigo
+      - Necesito atención al cliente
+      - Necesito ayuda de una persona
+      - Necesito hablar con un agente por chat
+      - Necesito hablar con un especialista
+      - Quiero hablar con el servicio de atención al cliente
+      - Quiero continuar con el soporte por chat
+      - Quiero hablar con un consultor
+      - Quiero hablar con un técnico por chat
+      - Me gustaría hablar con un asociado
+      - Me gustaría hablar con un técnico
+      - Me gustaría hablar con un miembro del soporte técnico
+      - Me gustaría hablar con alguien de soporte técnico
+
+  actions:
+    - kind: SendActivity
+      id: sendMessage_s39DCt
+      conversationOutcome: Escalated
+      activity: |-
+        La remisión a un representante no está configurada actualmente para este copiloto. Sin embargo, aquí es donde el agente podría proporcionar información sobre cómo ponerse en contacto con alguien de otra manera.
+
+        ¿Le puedo ayudar con algo más?

@@ -1,0 +1,11 @@
+<botcomponent schemaname="cr5c8_rbitro.topic.Jugador_ReporteEstadsticadepartida_bymLtK7LL48R0Kk6kNC96">
+  <componenttype>16</componenttype>
+  <description>This knowledge source answers questions found in the following Dataverse items: Jugador, Reporte, Estadística de partida</description>
+  <iscustomizable>0</iscustomizable>
+  <name>Jugador, Reporte, Estadística de partida</name>
+  <parentbotid>
+    <schemaname>cr5c8_rbitro</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

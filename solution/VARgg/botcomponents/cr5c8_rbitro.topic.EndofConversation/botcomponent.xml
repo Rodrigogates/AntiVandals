@@ -1,0 +1,12 @@
+<botcomponent schemaname="cr5c8_rbitro.topic.EndofConversation">
+  <componenttype>9</componenttype>
+  <description>Este tema del sistema solo se desencadena mediante una acción de redireccionamiento
+y guía al usuario por el proceso de valoración de su conversación con el agente.</description>
+  <iscustomizable>0</iscustomizable>
+  <name>Fin de la conversación</name>
+  <parentbotid>
+    <schemaname>cr5c8_rbitro</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

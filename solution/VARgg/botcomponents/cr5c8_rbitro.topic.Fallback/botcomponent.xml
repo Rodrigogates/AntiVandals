@@ -1,0 +1,11 @@
+<botcomponent schemaname="cr5c8_rbitro.topic.Fallback">
+  <componenttype>9</componenttype>
+  <description>Este tema del sistema se desencadena cuando la expresión del usuario no coincide con ningún tema existente.</description>
+  <iscustomizable>0</iscustomizable>
+  <name>Alternativa</name>
+  <parentbotid>
+    <schemaname>cr5c8_rbitro</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

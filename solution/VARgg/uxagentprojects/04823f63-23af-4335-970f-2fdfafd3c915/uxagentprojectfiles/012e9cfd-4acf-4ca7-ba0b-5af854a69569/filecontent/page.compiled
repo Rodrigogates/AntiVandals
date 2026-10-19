@@ -1,0 +1,1145 @@
+// --- BEGIN GENERATED RUNTIME TYPES ---
+
+var cr5c8_jugador1_statecode;
+(function (cr5c8_jugador1_statecode) {
+    cr5c8_jugador1_statecode[cr5c8_jugador1_statecode["Active"] = 0] = "Active";
+    cr5c8_jugador1_statecode[cr5c8_jugador1_statecode["Inactive"] = 1] = "Inactive";
+})(cr5c8_jugador1_statecode || (cr5c8_jugador1_statecode = {}));
+var cr5c8_jugador1_statuscode;
+(function (cr5c8_jugador1_statuscode) {
+    cr5c8_jugador1_statuscode[cr5c8_jugador1_statuscode["Active"] = 1] = "Active";
+    cr5c8_jugador1_statuscode[cr5c8_jugador1_statuscode["Inactive"] = 2] = "Inactive";
+})(cr5c8_jugador1_statuscode || (cr5c8_jugador1_statuscode = {}));
+var cr5c8_jugador1_cr5c8_estado;
+(function (cr5c8_jugador1_cr5c8_estado) {
+    cr5c8_jugador1_cr5c8_estado[cr5c8_jugador1_cr5c8_estado["Limpio"] = 500340000] = "Limpio";
+    cr5c8_jugador1_cr5c8_estado[cr5c8_jugador1_cr5c8_estado["En revisi\u00F3n"] = 500340001] = "En revisi\u00F3n";
+    cr5c8_jugador1_cr5c8_estado[cr5c8_jugador1_cr5c8_estado["Sancionado"] = 500340002] = "Sancionado";
+})(cr5c8_jugador1_cr5c8_estado || (cr5c8_jugador1_cr5c8_estado = {}));
+var cr5c8_jugador1_cr5c8_origen;
+(function (cr5c8_jugador1_cr5c8_origen) {
+    cr5c8_jugador1_cr5c8_origen[cr5c8_jugador1_cr5c8_origen["Simulado"] = 500340000] = "Simulado";
+    cr5c8_jugador1_cr5c8_origen[cr5c8_jugador1_cr5c8_origen["FACEIT"] = 500340001] = "FACEIT";
+    cr5c8_jugador1_cr5c8_origen[cr5c8_jugador1_cr5c8_origen["CSV"] = 500340002] = "CSV";
+})(cr5c8_jugador1_cr5c8_origen || (cr5c8_jugador1_cr5c8_origen = {}));
+var cr5c8_estadisticadepartida1_statecode;
+(function (cr5c8_estadisticadepartida1_statecode) {
+    cr5c8_estadisticadepartida1_statecode[cr5c8_estadisticadepartida1_statecode["Active"] = 0] = "Active";
+    cr5c8_estadisticadepartida1_statecode[cr5c8_estadisticadepartida1_statecode["Inactive"] = 1] = "Inactive";
+})(cr5c8_estadisticadepartida1_statecode || (cr5c8_estadisticadepartida1_statecode = {}));
+var cr5c8_estadisticadepartida1_statuscode;
+(function (cr5c8_estadisticadepartida1_statuscode) {
+    cr5c8_estadisticadepartida1_statuscode[cr5c8_estadisticadepartida1_statuscode["Active"] = 1] = "Active";
+    cr5c8_estadisticadepartida1_statuscode[cr5c8_estadisticadepartida1_statuscode["Inactive"] = 2] = "Inactive";
+})(cr5c8_estadisticadepartida1_statuscode || (cr5c8_estadisticadepartida1_statuscode = {}));
+var cr5c8_estadisticadepartida1_cr5c8_resultado;
+(function (cr5c8_estadisticadepartida1_cr5c8_resultado) {
+    cr5c8_estadisticadepartida1_cr5c8_resultado[cr5c8_estadisticadepartida1_cr5c8_resultado["Victoria"] = 500340000] = "Victoria";
+    cr5c8_estadisticadepartida1_cr5c8_resultado[cr5c8_estadisticadepartida1_cr5c8_resultado["Derrota"] = 500340001] = "Derrota";
+})(cr5c8_estadisticadepartida1_cr5c8_resultado || (cr5c8_estadisticadepartida1_cr5c8_resultado = {}));
+var cr5c8_estadisticadepartida1_cr5c8_sospechosa;
+(function (cr5c8_estadisticadepartida1_cr5c8_sospechosa) {
+    cr5c8_estadisticadepartida1_cr5c8_sospechosa[cr5c8_estadisticadepartida1_cr5c8_sospechosa["False"] = 0] = "False";
+    cr5c8_estadisticadepartida1_cr5c8_sospechosa[cr5c8_estadisticadepartida1_cr5c8_sospechosa["True"] = 1] = "True";
+})(cr5c8_estadisticadepartida1_cr5c8_sospechosa || (cr5c8_estadisticadepartida1_cr5c8_sospechosa = {}));
+var cr5c8_caso1_statecode;
+(function (cr5c8_caso1_statecode) {
+    cr5c8_caso1_statecode[cr5c8_caso1_statecode["Active"] = 0] = "Active";
+    cr5c8_caso1_statecode[cr5c8_caso1_statecode["Inactive"] = 1] = "Inactive";
+})(cr5c8_caso1_statecode || (cr5c8_caso1_statecode = {}));
+var cr5c8_caso1_statuscode;
+(function (cr5c8_caso1_statuscode) {
+    cr5c8_caso1_statuscode[cr5c8_caso1_statuscode["Active"] = 1] = "Active";
+    cr5c8_caso1_statuscode[cr5c8_caso1_statuscode["Inactive"] = 2] = "Inactive";
+})(cr5c8_caso1_statuscode || (cr5c8_caso1_statuscode = {}));
+var cr5c8_caso1_cr5c8_estado_caso;
+(function (cr5c8_caso1_cr5c8_estado_caso) {
+    cr5c8_caso1_cr5c8_estado_caso[cr5c8_caso1_cr5c8_estado_caso["Abierto"] = 500340000] = "Abierto";
+    cr5c8_caso1_cr5c8_estado_caso[cr5c8_caso1_cr5c8_estado_caso["Resuelto"] = 500340001] = "Resuelto";
+})(cr5c8_caso1_cr5c8_estado_caso || (cr5c8_caso1_cr5c8_estado_caso = {}));
+var cr5c8_caso1_cr5c8_sancion;
+(function (cr5c8_caso1_cr5c8_sancion) {
+    cr5c8_caso1_cr5c8_sancion[cr5c8_caso1_cr5c8_sancion["Archivar"] = 500340000] = "Archivar";
+    cr5c8_caso1_cr5c8_sancion[cr5c8_caso1_cr5c8_sancion["Aviso"] = 500340001] = "Aviso";
+    cr5c8_caso1_cr5c8_sancion[cr5c8_caso1_cr5c8_sancion["Suspensi\u00F3n"] = 500340002] = "Suspensi\u00F3n";
+    cr5c8_caso1_cr5c8_sancion[cr5c8_caso1_cr5c8_sancion["Baneo"] = 500340003] = "Baneo";
+})(cr5c8_caso1_cr5c8_sancion || (cr5c8_caso1_cr5c8_sancion = {}));
+var cr5c8_reportejugador_statecode;
+(function (cr5c8_reportejugador_statecode) {
+    cr5c8_reportejugador_statecode[cr5c8_reportejugador_statecode["Active"] = 0] = "Active";
+    cr5c8_reportejugador_statecode[cr5c8_reportejugador_statecode["Inactive"] = 1] = "Inactive";
+})(cr5c8_reportejugador_statecode || (cr5c8_reportejugador_statecode = {}));
+var cr5c8_reportejugador_statuscode;
+(function (cr5c8_reportejugador_statuscode) {
+    cr5c8_reportejugador_statuscode[cr5c8_reportejugador_statuscode["Active"] = 1] = "Active";
+    cr5c8_reportejugador_statuscode[cr5c8_reportejugador_statuscode["Inactive"] = 2] = "Inactive";
+})(cr5c8_reportejugador_statuscode || (cr5c8_reportejugador_statuscode = {}));
+var cr5c8_reportejugador_cr5c8_categoria;
+(function (cr5c8_reportejugador_cr5c8_categoria) {
+    cr5c8_reportejugador_cr5c8_categoria[cr5c8_reportejugador_cr5c8_categoria["Aimbot"] = 500340000] = "Aimbot";
+    cr5c8_reportejugador_cr5c8_categoria[cr5c8_reportejugador_cr5c8_categoria["Wallhack"] = 500340001] = "Wallhack";
+    cr5c8_reportejugador_cr5c8_categoria[cr5c8_reportejugador_cr5c8_categoria["Smurf"] = 500340002] = "Smurf";
+    cr5c8_reportejugador_cr5c8_categoria[cr5c8_reportejugador_cr5c8_categoria["Toxicidad"] = 500340003] = "Toxicidad";
+    cr5c8_reportejugador_cr5c8_categoria[cr5c8_reportejugador_cr5c8_categoria["Griefing"] = 500340004] = "Griefing";
+    cr5c8_reportejugador_cr5c8_categoria[cr5c8_reportejugador_cr5c8_categoria["Otro"] = 500340005] = "Otro";
+})(cr5c8_reportejugador_cr5c8_categoria || (cr5c8_reportejugador_cr5c8_categoria = {}));
+var cr5c8_reportejugador_cr5c8_decision;
+(function (cr5c8_reportejugador_cr5c8_decision) {
+    cr5c8_reportejugador_cr5c8_decision[cr5c8_reportejugador_cr5c8_decision["Pendiente"] = 500340000] = "Pendiente";
+    cr5c8_reportejugador_cr5c8_decision[cr5c8_reportejugador_cr5c8_decision["Ignorado"] = 500340001] = "Ignorado";
+    cr5c8_reportejugador_cr5c8_decision[cr5c8_reportejugador_cr5c8_decision["Contestado"] = 500340002] = "Contestado";
+    cr5c8_reportejugador_cr5c8_decision[cr5c8_reportejugador_cr5c8_decision["Aviso"] = 500340003] = "Aviso";
+    cr5c8_reportejugador_cr5c8_decision[cr5c8_reportejugador_cr5c8_decision["Baneo"] = 500340004] = "Baneo";
+})(cr5c8_reportejugador_cr5c8_decision || (cr5c8_reportejugador_cr5c8_decision = {}));
+var cr5c8_reportejugador_cr5c8_revisado;
+(function (cr5c8_reportejugador_cr5c8_revisado) {
+    cr5c8_reportejugador_cr5c8_revisado[cr5c8_reportejugador_cr5c8_revisado["No"] = 0] = "No";
+    cr5c8_reportejugador_cr5c8_revisado[cr5c8_reportejugador_cr5c8_revisado["S\u00ED"] = 1] = "S\u00ED";
+})(cr5c8_reportejugador_cr5c8_revisado || (cr5c8_reportejugador_cr5c8_revisado = {}));
+export {};
+
+
+// --- END GENERATED RUNTIME TYPES ---
+
+var __assign = (this && this.__assign) || function () {
+    __assign = Object.assign || function(t) {
+        for (var s, i = 1, n = arguments.length; i < n; i++) {
+            s = arguments[i];
+            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
+                t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+var __generator = (this && this.__generator) || function (thisArg, body) {
+    var _ = { label: 0, sent: function() { if (t[0] & 1) throw t[1]; return t[1]; }, trys: [], ops: [] }, f, y, t, g = Object.create((typeof Iterator === "function" ? Iterator : Object).prototype);
+    return g.next = verb(0), g["throw"] = verb(1), g["return"] = verb(2), typeof Symbol === "function" && (g[Symbol.iterator] = function() { return this; }), g;
+    function verb(n) { return function (v) { return step([n, v]); }; }
+    function step(op) {
+        if (f) throw new TypeError("Generator is already executing.");
+        while (g && (g = 0, op[0] && (_ = 0)), _) try {
+            if (f = 1, y && (t = op[0] & 2 ? y["return"] : op[0] ? y["throw"] || ((t = y["return"]) && t.call(y), 0) : y.next) && !(t = t.call(y, op[1])).done) return t;
+            if (y = 0, t) op = [op[0] & 2, t.value];
+            switch (op[0]) {
+                case 0: case 1: t = op; break;
+                case 4: _.label++; return { value: op[1], done: false };
+                case 5: _.label++; y = op[1]; op = [0]; continue;
+                case 7: op = _.ops.pop(); _.trys.pop(); continue;
+                default:
+                    if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (op[0] === 6 || op[0] === 2)) { _ = 0; continue; }
+                    if (op[0] === 3 && (!t || (op[1] > t[0] && op[1] < t[3]))) { _.label = op[1]; break; }
+                    if (op[0] === 6 && _.label < t[1]) { _.label = t[1]; t = op; break; }
+                    if (t && _.label < t[2]) { _.label = t[2]; _.ops.push(op); break; }
+                    if (t[2]) _.ops.pop();
+                    _.trys.pop(); continue;
+            }
+            op = body.call(thisArg, _);
+        } catch (e) { op = [6, e]; y = 0; } finally { f = t = 0; }
+        if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
+    }
+};
+import React, { useEffect, useState, useRef } from "react";
+import { Button, Text, Divider, Dropdown, Option, Tag, } from "@fluentui/react-components";
+import { DismissRegular, } from "@fluentui/react-icons";
+// --- Localization Setup ---
+var langMap = {
+    3082: { code: "es-ES", name: "Español (España)", isRtl: false },
+    1033: { code: "en-US", name: "English (United States)", isRtl: false },
+};
+var translations = {
+    "es-ES": {
+        pantallas: "Pantallas",
+        jugadores: "Jugadores",
+        reportes: "Reportes",
+        todos: "Todos",
+        limpio: "Limpio",
+        enRevision: "En revisión",
+        sancionado: "Sancionado",
+        buscar: "Buscar...",
+        filtroEstado: "Estado",
+        indice: "Índice",
+        nivel: "Nivel",
+        elo: "ELO",
+        pais: "País",
+        estado: "Estado",
+        motivos: "Motivos",
+        cerrar: "Cerrar",
+        actualizarAhora: "Actualizar ahora",
+        ultimaActualizacion: "Última actualización",
+        noJugadores: "No hay jugadores todavía",
+        noReportes: "No hay reportes todavía",
+        agregarJugador: "Agregar jugador",
+        exitoAgregar: "Jugador agregado correctamente.",
+        exitoBorrar: "Jugador borrado correctamente.",
+        errorAgregar: "Error al agregar jugador.",
+        errorBorrar: "Error al borrar jugador.",
+        campoObligatorio: "Campo obligatorio",
+        id: "ID",
+        player_id: "Player ID",
+        fecha_alta: "Fecha de alta",
+        indiceSospecha: "Índice de sospecha",
+        nivelLabel: "Nivel",
+        eloLabel: "ELO",
+        paisLabel: "País",
+        estadoLabel: "Estado",
+        motivosLabel: "Motivos",
+        barraIndiceLabel: "Índice de sospecha",
+        sinNickname: "Sin nickname",
+        sinNivel: "Sin nivel",
+        sinELO: "Sin ELO",
+        sinPais: "Sin país",
+        sinEstado: "Sin estado",
+        sinMotivos: "Sin motivos",
+        sinJugador: "Selecciona un jugador",
+        antiguedad: "Antigüedad",
+        dias: "días",
+        limpiar: "Limpiar",
+        semaforoVerde: "Limpio",
+        semaforoAmbar: "Sospecha media",
+        semaforoRojo: "Sospecha alta",
+        logo: "AntiVandals",
+        actualizar: "Actualizar",
+        media: "Media",
+        motivoNoDisponible: "Motivo no disponible",
+        sinJugadorSeleccionado: "Selecciona un jugador",
+        ultimaActualizacionLabel: "Última actualización",
+        playerId: "Player ID",
+        indiceSospechaLabel: "Índice de sospecha",
+        limpiarCampos: "Limpiar campos",
+        agregar: "Agregar",
+        cancelar: "Cancelar",
+        obligatorio: "Obligatorio",
+        exito: "Éxito",
+        error: "Error",
+        confirmacion: "Confirmación",
+        fechaAltaPlaceholder: "Fecha de alta (YYYY-MM-DD)",
+        nivelPlaceholder: "Nivel (número)",
+        eloPlaceholder: "ELO (opcional)",
+        indiceSospechaPlaceholder: "Índice de sospecha (0-100)",
+        motivosPlaceholder: "Motivos (separados por | )",
+        paisPlaceholder: "País",
+        nicknamePlaceholder: "Nickname",
+        estadoPlaceholder: "Estado",
+        playerIdPlaceholder: "Player ID",
+        errorCamposObligatorios: "Por favor, rellena todos los campos obligatorios.",
+        errorFormatoFecha: "Formato de fecha inválido.",
+        errorFormatoNumero: "Debe ser un número válido.",
+        pendientes: "Pendientes",
+        categoria: "Categoría",
+        gravedad: "Gravedad",
+        descripcion: "Descripción",
+        reportero: "Reportero",
+        jugadorReportado: "Jugador reportado",
+        captura: "Captura",
+        clip: "Clip",
+        ignorar: "Ignorar",
+        avisar: "Avisar",
+        banear: "Banear",
+        revisado: "Revisado",
+        revisadoOk: "Reporte marcado como revisado.",
+        errorRevisado: "Error al marcar como revisado.",
+        sinSeleccion: "Selecciona un reporte",
+        sinCategoria: "Sin categoría",
+        sinDescripcion: "Sin descripción",
+        sinCaptura: "Sin captura",
+        sinClip: "Sin clip",
+        sinReportero: "Sin reportero",
+        sinJugadorReportado: "Sin jugador reportado",
+    },
+    "en-US": {},
+};
+// --- Utility Functions ---
+function getSemaforoColor(indice) {
+    if (indice >= 60)
+        return { color: "#FF3B3B", text: "Sospecha alta", textColor: "#FFFFFF" };
+    if (indice > 0)
+        return { color: "#FFB020", text: "Sospecha media", textColor: "#222222" };
+    return { color: "#39FF14", text: "Limpio", textColor: "#222222" };
+}
+function pad2(n) {
+    return n < 10 ? "0" + n : n;
+}
+function formatDateTime(date) {
+    return "".concat(pad2(date.getHours()), ":").concat(pad2(date.getMinutes()), ":").concat(pad2(date.getSeconds()));
+}
+function calcularAntiguedad(fechaAlta) {
+    if (!fechaAlta)
+        return 0;
+    var d = fechaAlta instanceof Date ? fechaAlta : new Date(fechaAlta);
+    if (isNaN(d.getTime()))
+        return 0;
+    var diff = Date.now() - d.getTime();
+    return Math.floor(diff / (1000 * 60 * 60 * 24));
+}
+// --- Hamburger Icon (Three Lines) ---
+function HamburgerIcon(_a) {
+    var _b = _a.color, color = _b === void 0 ? "#E6E6E6" : _b, _c = _a.size, size = _c === void 0 ? 32 : _c;
+    var lineHeight = Math.max(3, Math.round(size * 0.13));
+    var gap = Math.max(5, Math.round(size * 0.18));
+    return (React.createElement("div", { "aria-label": "Men\u00FA", style: {
+            width: size,
+            height: size,
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "center",
+            alignItems: "center",
+            gap: gap - lineHeight,
+            padding: 0,
+        } },
+        React.createElement("div", { style: {
+                width: size * 0.75,
+                height: lineHeight,
+                background: color,
+                borderRadius: lineHeight,
+                margin: 0,
+            } }),
+        React.createElement("div", { style: {
+                width: size * 0.75,
+                height: lineHeight,
+                background: color,
+                borderRadius: lineHeight,
+                margin: 0,
+            } }),
+        React.createElement("div", { style: {
+                width: size * 0.75,
+                height: lineHeight,
+                background: color,
+                borderRadius: lineHeight,
+                margin: 0,
+            } })));
+}
+// --- PantallasTab Component ---
+function PantallasTab(_a) {
+    var jugadores = _a.jugadores, loading = _a.loading, error = _a.error, t = _a.t, colors = _a.colors, onCardClick = _a.onCardClick;
+    // Ordenar por indice_sospecha de mayor a menor
+    var jugadoresOrdenados = (jugadores || []).slice().sort(function (a, b) { return (Number(b.cr5c8_indice_sospecha) || 0) - (Number(a.cr5c8_indice_sospecha) || 0); });
+    return (React.createElement("div", { style: {
+            flex: 1,
+            width: "100%",
+            minHeight: 0,
+            background: colors.fondo,
+            padding: "32px",
+            boxSizing: "border-box",
+            display: "flex",
+            flexDirection: "column",
+            overflow: "hidden",
+        } },
+        React.createElement(Text, { as: "h2", style: { fontSize: 22, fontWeight: 700, marginBottom: 16 } }, t("pantallas")),
+        loading ? (React.createElement(Text, null,
+            t("actualizar"),
+            "...")) : error ? (React.createElement(Text, null, error)) : jugadoresOrdenados.length === 0 ? (React.createElement(Text, null, t("noJugadores"))) : (React.createElement("div", { style: {
+                display: "grid",
+                gridTemplateColumns: "repeat(3, 1fr)",
+                gap: "24px",
+                width: "100%",
+                minHeight: 0,
+                overflowY: "auto",
+                paddingBottom: 24,
+            } }, jugadoresOrdenados.map(function (jugador) {
+            var _a, _b, _c;
+            var semaforo = getSemaforoColor(Number(jugador.cr5c8_indice_sospecha) || 0);
+            return (React.createElement("div", { key: jugador.cr5c8_jugador1id, tabIndex: 0, role: "button", "aria-label": jugador.cr5c8_nickname || t("sinNickname"), onClick: function () { return onCardClick(jugador); }, onKeyPress: function (e) {
+                    if (e.key === "Enter" || e.key === " ")
+                        onCardClick(jugador);
+                }, style: {
+                    background: colors.tarjeta,
+                    borderRadius: colors.radio,
+                    boxShadow: colors.sombra,
+                    border: "3px solid ".concat(semaforo.color),
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "center",
+                    padding: "24px",
+                    cursor: "pointer",
+                    minHeight: 320,
+                    transition: "box-shadow 0.2s, border-color 0.2s",
+                    outline: "none",
+                } },
+                jugador.cr5c8_pantalla_url ? (React.createElement("img", { src: jugador.cr5c8_pantalla_url, alt: jugador.cr5c8_nickname || t("sinNickname"), style: {
+                        width: "100%",
+                        maxWidth: 220,
+                        height: 140,
+                        objectFit: "cover",
+                        borderRadius: colors.radioSmall,
+                        marginBottom: 16,
+                        boxShadow: colors.sombra,
+                        background: colors.superficie,
+                    } })) : (React.createElement("div", { style: {
+                        width: 220,
+                        height: 140,
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                        background: colors.superficie,
+                        borderRadius: colors.radioSmall,
+                        marginBottom: 16,
+                        color: colors.texto,
+                        fontWeight: 700,
+                        fontSize: 28,
+                        boxShadow: colors.sombra,
+                    } }, jugador.cr5c8_nickname || t("sinNickname"))),
+                React.createElement(Text, { size: 500, weight: "semibold", style: {
+                        color: colors.texto,
+                        fontSize: 22,
+                        marginBottom: 8,
+                        textAlign: "center",
+                    } }, jugador.cr5c8_nickname || t("sinNickname")),
+                React.createElement("div", { style: { display: "flex", gap: 12, marginBottom: 8 } },
+                    React.createElement(Tag, { style: {
+                            background: colors.superficie,
+                            color: colors.texto,
+                            borderRadius: colors.radioSmall,
+                            fontWeight: 600,
+                            fontSize: 16,
+                            padding: "2px 10px",
+                        } },
+                        t("nivel"),
+                        ": ", (_a = jugador.cr5c8_nivel) !== null && _a !== void 0 ? _a : "-"),
+                    React.createElement(Tag, { style: {
+                            background: colors.superficie,
+                            color: colors.texto,
+                            borderRadius: colors.radioSmall,
+                            fontWeight: 600,
+                            fontSize: 16,
+                            padding: "2px 10px",
+                        } },
+                        t("elo"),
+                        ": ", (_b = jugador.cr5c8_elo) !== null && _b !== void 0 ? _b : "-"),
+                    React.createElement(Tag, { style: {
+                            background: colors.superficie,
+                            color: colors.texto,
+                            borderRadius: colors.radioSmall,
+                            fontWeight: 600,
+                            fontSize: 16,
+                            padding: "2px 10px",
+                        } },
+                        t("pais"),
+                        ": ",
+                        jugador.cr5c8_pais || "-")),
+                React.createElement(Tag, { style: {
+                        background: semaforo.color,
+                        color: semaforo.textColor,
+                        borderRadius: colors.radioSmall,
+                        fontWeight: 700,
+                        fontSize: 16,
+                        padding: "2px 10px",
+                        marginBottom: 8,
+                    } },
+                    t("indice"),
+                    ": ", (_c = jugador.cr5c8_indice_sospecha) !== null && _c !== void 0 ? _c : 0)));
+        })))));
+}
+// --- Menu Item ---
+function MenuItem(_a) {
+    var label = _a.label, active = _a.active, color = _a.color, onClick = _a.onClick, badge = _a.badge, horizontal = _a.horizontal;
+    return (React.createElement("div", { tabIndex: 0, role: "menuitem", "aria-label": label, onClick: onClick, onKeyPress: function (e) {
+            if (e.key === "Enter" || e.key === " ")
+                onClick();
+        }, style: __assign({ display: "flex", alignItems: "center", padding: horizontal ? "12px 28px" : "12px 24px", cursor: "pointer", background: active ? color.superficie : "transparent", color: active ? color.verde : color.texto, fontWeight: active ? 700 : 500, fontSize: 18, border: "none", outline: "none", borderRight: horizontal ? "1px solid #2224" : undefined, borderBottom: !horizontal ? "1px solid #2224" : undefined, position: "relative", transition: "background 0.2s, color 0.2s", minWidth: 90, justifyContent: "center" }, (horizontal
+            ? { borderRight: undefined }
+            : {})) },
+        React.createElement("span", { style: { flex: 1 } }, label),
+        badge !== undefined && badge > 0 && (React.createElement("span", { style: {
+                background: "#FF3B3B",
+                color: "#FFFFFF",
+                borderRadius: 12,
+                minWidth: 24,
+                height: 24,
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                fontWeight: 700,
+                fontSize: 14,
+                marginLeft: 8,
+                boxShadow: "0 2px 8px #0006",
+                border: "2px solid #1A1D24",
+            } }, badge))));
+}
+// --- Reportes Tab ---
+function ReportesTab(_a) {
+    var _b;
+    var reportes = _a.reportes, loading = _a.loading, error = _a.error, t = _a.t, colors = _a.colors, filtro = _a.filtro, setFiltro = _a.setFiltro, seleccionado = _a.seleccionado, setSeleccionado = _a.setSeleccionado, onMarcarRevisado = _a.onMarcarRevisado;
+    // Categoría labels
+    var categoriaLabels = {
+        500340000: "Aimbot",
+        500340001: "Wallhack",
+        500340002: "Smurf",
+        500340003: "Toxicidad",
+        500340004: "Griefing",
+        500340005: "Otro",
+    };
+    return (React.createElement("div", { style: {
+            flex: 1,
+            display: "flex",
+            flexDirection: "row",
+            background: colors.fondo,
+            minHeight: 0,
+            height: "100%",
+            padding: "32px",
+            gap: "32px",
+        } },
+        React.createElement("div", { style: {
+                flex: 1,
+                minWidth: 280,
+                maxWidth: 400,
+                background: colors.tarjeta,
+                borderRadius: colors.radio,
+                boxShadow: colors.sombra,
+                padding: "24px",
+                display: "flex",
+                flexDirection: "column",
+                height: "100%",
+            } },
+            React.createElement(Text, { as: "h2", style: { fontSize: 22, fontWeight: 700, marginBottom: 16 } }, t("reportes")),
+            React.createElement(Dropdown, { value: filtro, onOptionSelect: function (_, data) { return setFiltro(data.optionValue); }, style: {
+                    marginBottom: 12,
+                    background: colors.superficie,
+                    color: colors.texto,
+                    borderRadius: colors.radioSmall,
+                    fontWeight: 500,
+                    fontSize: 16,
+                    border: "2px solid ".concat(colors.superficie),
+                }, placeholder: t("pendientes") },
+                React.createElement(Option, { value: "Pendientes" }, t("pendientes")),
+                React.createElement(Option, { value: "Todos" }, t("todos"))),
+            React.createElement(Divider, { style: { margin: "12px 0", background: colors.superficie } }),
+            loading ? (React.createElement(Text, null,
+                t("actualizar"),
+                "...")) : error ? (React.createElement(Text, null, error)) : reportes.length === 0 ? (React.createElement(Text, null, t("noReportes"))) : (React.createElement("div", { style: { flex: 1, overflowY: "auto", maxHeight: "calc(100vh - 220px)" } }, reportes.map(function (r) {
+                var _a;
+                var gravedadColor = colors.verde;
+                if (r.cr5c8_gravedad >= 4)
+                    gravedadColor = colors.rojo;
+                else if (r.cr5c8_gravedad >= 2)
+                    gravedadColor = colors.ambar;
+                return (React.createElement("div", { key: r.cr5c8_reportejugadorid, tabIndex: 0, role: "button", "aria-label": r.cr5c8_titulo, onClick: function () { return setSeleccionado(r); }, onKeyPress: function (e) {
+                        if (e.key === "Enter" || e.key === " ")
+                            setSeleccionado(r);
+                    }, style: {
+                        display: "flex",
+                        alignItems: "center",
+                        gap: 12,
+                        padding: "10px 0",
+                        borderBottom: "1px solid #2224",
+                        cursor: "pointer",
+                        borderLeft: "4px solid ".concat(gravedadColor),
+                        background: (seleccionado === null || seleccionado === void 0 ? void 0 : seleccionado.cr5c8_reportejugadorid) === r.cr5c8_reportejugadorid
+                            ? colors.superficie
+                            : "transparent",
+                        color: colors.texto,
+                        fontWeight: (seleccionado === null || seleccionado === void 0 ? void 0 : seleccionado.cr5c8_reportejugadorid) === r.cr5c8_reportejugadorid ? 700 : 500,
+                    } },
+                    React.createElement(Tag, { style: {
+                            background: gravedadColor,
+                            color: gravedadColor === colors.rojo ? "#FFF" : "#222",
+                            borderRadius: colors.radioSmall,
+                            fontWeight: 700,
+                            fontSize: 16,
+                            padding: "2px 10px",
+                            minWidth: 36,
+                            textAlign: "center",
+                        } }, (_a = r.cr5c8_gravedad) !== null && _a !== void 0 ? _a : 0),
+                    React.createElement("span", { style: { flex: 1 } }, r["cr5c8_jugador_reportado@OData.Community.Display.V1.FormattedValue"] ||
+                        t("sinJugadorReportado")),
+                    React.createElement(Tag, { style: {
+                            background: colors.superficie,
+                            color: colors.texto,
+                            borderRadius: colors.radioSmall,
+                            fontWeight: 600,
+                            fontSize: 14,
+                            padding: "2px 8px",
+                        } }, categoriaLabels[r.cr5c8_categoria] || t("sinCategoria"))));
+            })))),
+        React.createElement("div", { style: {
+                flex: 2,
+                minWidth: 320,
+                background: colors.tarjeta,
+                borderRadius: colors.radio,
+                boxShadow: colors.sombra,
+                padding: "24px",
+                display: "flex",
+                flexDirection: "column",
+                height: "100%",
+            } }, seleccionado ? (React.createElement(React.Fragment, null,
+            React.createElement(Text, { as: "h2", style: { fontSize: 24, fontWeight: 700, marginBottom: 8 } }, seleccionado.cr5c8_titulo || t("sinCategoria")),
+            React.createElement("div", { style: { marginBottom: 8 } },
+                React.createElement(Text, { style: { fontWeight: 600 } },
+                    t("reportero"),
+                    ":"),
+                " ",
+                React.createElement("span", null, seleccionado["cr5c8_reportero@OData.Community.Display.V1.FormattedValue"] ||
+                    t("sinReportero"))),
+            React.createElement("div", { style: { marginBottom: 8 } },
+                React.createElement(Text, { style: { fontWeight: 600 } },
+                    t("jugadorReportado"),
+                    ":"),
+                " ",
+                React.createElement("span", null, seleccionado["cr5c8_jugador_reportado@OData.Community.Display.V1.FormattedValue"] ||
+                    t("sinJugadorReportado"))),
+            React.createElement("div", { style: { marginBottom: 8 } },
+                React.createElement(Text, { style: { fontWeight: 600 } },
+                    t("categoria"),
+                    ":"),
+                " ",
+                React.createElement("span", null, categoriaLabels[seleccionado.cr5c8_categoria] || t("sinCategoria"))),
+            React.createElement("div", { style: { marginBottom: 8 } },
+                React.createElement(Text, { style: { fontWeight: 600 } },
+                    t("gravedad"),
+                    ":"),
+                " ",
+                React.createElement("span", null, (_b = seleccionado.cr5c8_gravedad) !== null && _b !== void 0 ? _b : 0)),
+            React.createElement("div", { style: { marginBottom: 8 } },
+                React.createElement(Text, { style: { fontWeight: 600 } },
+                    t("descripcion"),
+                    ":"),
+                React.createElement("div", { style: {
+                        color: colors.texto,
+                        fontSize: 16,
+                        background: colors.superficie,
+                        borderRadius: colors.radioSmall,
+                        padding: "8px 12px",
+                        marginTop: 4,
+                        minHeight: 40,
+                    } }, seleccionado.cr5c8_descripcion || t("sinDescripcion"))),
+            React.createElement("div", { style: { marginBottom: 8 } },
+                React.createElement(Text, { style: { fontWeight: 600 } },
+                    t("captura"),
+                    ":"),
+                seleccionado.cr5c8_captura ? (React.createElement("img", { src: seleccionado.cr5c8_captura, alt: t("captura"), style: {
+                        width: "100%",
+                        maxWidth: 320,
+                        borderRadius: colors.radioSmall,
+                        marginTop: 4,
+                        boxShadow: colors.sombra,
+                    } })) : (React.createElement("div", { style: {
+                        color: colors.texto,
+                        fontSize: 16,
+                        background: colors.superficie,
+                        borderRadius: colors.radioSmall,
+                        padding: "8px 12px",
+                        marginTop: 4,
+                    } }, t("sinCaptura")))),
+            React.createElement("div", { style: { marginBottom: 8 } },
+                React.createElement(Text, { style: { fontWeight: 600 } },
+                    t("clip"),
+                    ":"),
+                seleccionado.cr5c8_clip ? (React.createElement("video", { src: seleccionado.cr5c8_clip, controls: true, style: {
+                        width: "100%",
+                        maxWidth: 320,
+                        borderRadius: colors.radioSmall,
+                        marginTop: 4,
+                        boxShadow: colors.sombra,
+                    } })) : (React.createElement("div", { style: {
+                        color: colors.texto,
+                        fontSize: 16,
+                        background: colors.superficie,
+                        borderRadius: colors.radioSmall,
+                        padding: "8px 12px",
+                        marginTop: 4,
+                    } }, t("sinClip")))),
+            React.createElement("div", { style: { display: "flex", gap: 16, marginTop: 24 } },
+                React.createElement(Button, { appearance: "secondary", style: {
+                        background: colors.superficie,
+                        color: colors.texto,
+                        borderRadius: colors.radioSmall,
+                        fontWeight: 700,
+                        minWidth: 100,
+                    }, onClick: function () { return onMarcarRevisado(seleccionado); } }, t("ignorar")),
+                React.createElement(Button, { appearance: "primary", style: {
+                        background: colors.ambar,
+                        color: "#222222",
+                        borderRadius: colors.radioSmall,
+                        fontWeight: 700,
+                        minWidth: 100,
+                    }, onClick: function () { return onMarcarRevisado(seleccionado); } }, t("avisar")),
+                React.createElement(Button, { appearance: "primary", style: {
+                        background: colors.rojo,
+                        color: "#FFFFFF",
+                        borderRadius: colors.radioSmall,
+                        fontWeight: 700,
+                        minWidth: 100,
+                    }, onClick: function () { return onMarcarRevisado(seleccionado); } }, t("banear"))))) : (React.createElement(Text, null, t("sinSeleccion"))))));
+}
+var GeneratedComponent = function (props) {
+    // --- Localization ---
+    var language = React.useMemo(function () {
+        var _a, _b, _c, _d;
+        var uiLanguageId = (typeof Xrm !== "undefined" &&
+            ((_c = (_b = (_a = Xrm.Utility) === null || _a === void 0 ? void 0 : _a.getGlobalContext()) === null || _b === void 0 ? void 0 : _b.userSettings) === null || _c === void 0 ? void 0 : _c.languageId)) ||
+            3082;
+        return ((_d = langMap[uiLanguageId]) === null || _d === void 0 ? void 0 : _d.code) || "es-ES";
+    }, []);
+    var t = function (key) {
+        var _a, _b;
+        return ((_a = translations[language]) === null || _a === void 0 ? void 0 : _a[key]) ||
+            ((_b = translations["es-ES"]) === null || _b === void 0 ? void 0 : _b[key]) ||
+            key;
+    };
+    // --- Theme Colors ---
+    var colors = {
+        fondo: "#0F1115",
+        tarjeta: "#1A1D24",
+        texto: "#E6E6E6",
+        superficie: "#222222",
+        verde: "#39FF14",
+        ambar: "#FFB020",
+        rojo: "#FF3B3B",
+        sombra: "0 2px 8px #0006",
+        radio: 16,
+        radioSmall: 12,
+        radioLarge: 18,
+    };
+    // --- Estado Options (for filters and labels) ---
+    var estadoOptions = [
+        { value: 500340000, label: t("limpio") },
+        { value: 500340001, label: t("enRevision") },
+        { value: 500340002, label: t("sancionado") },
+    ];
+    // --- Tabs ---
+    var _a = useState("pantallas"), tab = _a[0], setTab = _a[1];
+    // --- Notification ---
+    var _b = useState(null), notification = _b[0], setNotification = _b[1];
+    // --- Data State ---
+    var _c = useState([]), jugadores = _c[0], setJugadores = _c[1];
+    var _d = useState(false), jugadoresLoading = _d[0], setJugadoresLoading = _d[1];
+    var _e = useState(null), jugadoresError = _e[0], setJugadoresError = _e[1];
+    // --- Estado para filtros y selección ---
+    var _f = useState("Todos"), jugadorFiltro = _f[0], setJugadorFiltro = _f[1];
+    var _g = useState(""), jugadorBusqueda = _g[0], setJugadorBusqueda = _g[1];
+    var _h = useState(null), jugadorSeleccionado = _h[0], setJugadorSeleccionado = _h[1];
+    // --- Modal Pantalla ---
+    var _j = useState(null), pantallaModal = _j[0], setPantallaModal = _j[1];
+    // --- Hamburger Menu ---
+    var _k = useState(false), menuOpen = _k[0], setMenuOpen = _k[1];
+    var menuRef = useRef(null);
+    // --- Add Jugador Modal State ---
+    var _l = useState(false), addJugadorOpen = _l[0], setAddJugadorOpen = _l[1];
+    // --- Actualización periódica ---
+    var _m = useState(new Date()), lastUpdate = _m[0], setLastUpdate = _m[1];
+    useEffect(function () {
+        var timer;
+        var fetchAll = function () { return __awaiter(void 0, void 0, void 0, function () {
+            return __generator(this, function (_a) {
+                switch (_a.label) {
+                    case 0: return [4 /*yield*/, fetchJugadores()];
+                    case 1:
+                        _a.sent();
+                        setLastUpdate(new Date());
+                        return [2 /*return*/];
+                }
+            });
+        }); };
+        fetchAll();
+        timer = setInterval(fetchAll, 10000);
+        return function () { return clearInterval(timer); };
+        // eslint-disable-next-line
+    }, []);
+    // --- Fetch Jugadores ---
+    function fetchJugadores() {
+        return __awaiter(this, void 0, void 0, function () {
+            var result, e_1;
+            return __generator(this, function (_a) {
+                switch (_a.label) {
+                    case 0:
+                        setJugadoresLoading(true);
+                        setJugadoresError(null);
+                        _a.label = 1;
+                    case 1:
+                        _a.trys.push([1, 3, , 4]);
+                        if (!props.dataApi) {
+                            setJugadores([]);
+                            setJugadoresLoading(false);
+                            return [2 /*return*/];
+                        }
+                        return [4 /*yield*/, props.dataApi.queryTable("cr5c8_jugador1", {
+                                select: [
+                                    "cr5c8_jugador1id",
+                                    "cr5c8_nickname",
+                                    "cr5c8_nivel",
+                                    "cr5c8_elo",
+                                    "cr5c8_pais",
+                                    "cr5c8_indice_sospecha",
+                                    "cr5c8_estado",
+                                    "cr5c8_fecha_alta",
+                                    "cr5c8_motivos",
+                                    "cr5c8_player_id",
+                                ],
+                                orderBy: "cr5c8_indice_sospecha desc",
+                                pageSize: 100,
+                            })];
+                    case 2:
+                        result = _a.sent();
+                        setJugadores(result.rows || []);
+                        return [3 /*break*/, 4];
+                    case 3:
+                        e_1 = _a.sent();
+                        setJugadoresError((e_1 === null || e_1 === void 0 ? void 0 : e_1.message) || t("error"));
+                        return [3 /*break*/, 4];
+                    case 4:
+                        setJugadoresLoading(false);
+                        return [2 /*return*/];
+                }
+            });
+        });
+    }
+    // --- Reportes State ---
+    var _o = useState([]), reportes = _o[0], setReportes = _o[1];
+    var _p = useState(false), reportesLoading = _p[0], setReportesLoading = _p[1];
+    var _q = useState(null), reportesError = _q[0], setReportesError = _q[1];
+    var _r = useState("Pendientes"), reporteFiltro = _r[0], setReporteFiltro = _r[1];
+    var _s = useState(null), reporteSeleccionado = _s[0], setReporteSeleccionado = _s[1];
+    // --- Fetch Reportes ---
+    function fetchReportes() {
+        return __awaiter(this, void 0, void 0, function () {
+            var filter, result, e_2;
+            return __generator(this, function (_a) {
+                switch (_a.label) {
+                    case 0:
+                        setReportesLoading(true);
+                        setReportesError(null);
+                        _a.label = 1;
+                    case 1:
+                        _a.trys.push([1, 3, , 4]);
+                        if (!props.dataApi) {
+                            setReportes([]);
+                            setReportesLoading(false);
+                            return [2 /*return*/];
+                        }
+                        filter = reporteFiltro === "Pendientes"
+                            ? "cr5c8_revisado eq 0"
+                            : undefined;
+                        return [4 /*yield*/, props.dataApi.queryTable("cr5c8_reportejugador", {
+                                select: [
+                                    "cr5c8_reportejugadorid",
+                                    "cr5c8_titulo",
+                                    "cr5c8_descripcion",
+                                    "cr5c8_reportero",
+                                    "_cr5c8_reportero_value",
+                                    "cr5c8_jugador_reportado",
+                                    "_cr5c8_jugador_reportado_value",
+                                    "cr5c8_categoria",
+                                    "cr5c8_gravedad",
+                                    "cr5c8_captura",
+                                    "cr5c8_clip",
+                                    "cr5c8_revisado",
+                                ],
+                                orderBy: "cr5c8_gravedad desc",
+                                pageSize: 100,
+                                filter: filter,
+                            })];
+                    case 2:
+                        result = _a.sent();
+                        setReportes(result.rows || []);
+                        // If the selected report is no longer present, deselect
+                        if (reporteSeleccionado &&
+                            !result.rows.find(function (r) { return r.cr5c8_reportejugadorid === reporteSeleccionado.cr5c8_reportejugadorid; })) {
+                            setReporteSeleccionado(null);
+                        }
+                        return [3 /*break*/, 4];
+                    case 3:
+                        e_2 = _a.sent();
+                        setReportesError((e_2 === null || e_2 === void 0 ? void 0 : e_2.message) || t("error"));
+                        return [3 /*break*/, 4];
+                    case 4:
+                        setReportesLoading(false);
+                        return [2 /*return*/];
+                }
+            });
+        });
+    }
+    // --- Fetch Reportes on tab/filtro change ---
+    useEffect(function () {
+        if (tab === "reportes") {
+            fetchReportes();
+        }
+        // eslint-disable-next-line
+    }, [tab, reporteFiltro]);
+    // --- Barra Superior ---
+    var pendingReportsCount = React.useMemo(function () { return reportes.filter(function (r) { return r.cr5c8_revisado === 0; }).length; }, [reportes]);
+    // --- Handlers ---
+    var handleTab = function (tabId) {
+        setTab(tabId);
+        setJugadorSeleccionado(null);
+        setMenuOpen(false);
+        if (tabId === "reportes") {
+            fetchReportes();
+        }
+    };
+    // --- Add/Delete Handlers ---
+    function handleAddJugador(formData) {
+        return __awaiter(this, void 0, void 0, function () {
+            var e_3;
+            return __generator(this, function (_a) {
+                switch (_a.label) {
+                    case 0:
+                        _a.trys.push([0, 3, , 4]);
+                        return [4 /*yield*/, props.dataApi.createRow("cr5c8_jugador1", formData)];
+                    case 1:
+                        _a.sent();
+                        setNotification({ type: "success", message: t("exitoAgregar") });
+                        return [4 /*yield*/, fetchJugadores()];
+                    case 2:
+                        _a.sent();
+                        return [3 /*break*/, 4];
+                    case 3:
+                        e_3 = _a.sent();
+                        setNotification({ type: "error", message: t("errorAgregar") });
+                        return [3 /*break*/, 4];
+                    case 4: return [2 /*return*/];
+                }
+            });
+        });
+    }
+    function handleDeleteJugador(jugadorId) {
+        return __awaiter(this, void 0, void 0, function () {
+            var e_4;
+            return __generator(this, function (_a) {
+                switch (_a.label) {
+                    case 0:
+                        _a.trys.push([0, 3, , 4]);
+                        return [4 /*yield*/, props.dataApi.deleteRow("cr5c8_jugador1", jugadorId)];
+                    case 1:
+                        _a.sent();
+                        setNotification({ type: "success", message: t("exitoBorrar") });
+                        setJugadorSeleccionado(null);
+                        return [4 /*yield*/, fetchJugadores()];
+                    case 2:
+                        _a.sent();
+                        return [3 /*break*/, 4];
+                    case 3:
+                        e_4 = _a.sent();
+                        setNotification({ type: "error", message: t("errorBorrar") });
+                        return [3 /*break*/, 4];
+                    case 4: return [2 /*return*/];
+                }
+            });
+        });
+    }
+    // --- Pantallas Navigation Modal Logic ---
+    var jugadoresOrdenadosPantallas = (jugadores || []).slice().sort(function (a, b) { return (Number(b.cr5c8_indice_sospecha) || 0) - (Number(a.cr5c8_indice_sospecha) || 0); });
+    function openPantallaModal(jugador) {
+        var idx = jugadoresOrdenadosPantallas.findIndex(function (j) { return j.cr5c8_jugador1id === jugador.cr5c8_jugador1id; });
+        setPantallaModal({ jugador: jugador, index: idx, jugadores: jugadoresOrdenadosPantallas });
+    }
+    function closePantallaModal() {
+        setPantallaModal(null);
+    }
+    function goToPantallaModal(index) {
+        var total = jugadoresOrdenadosPantallas.length;
+        if (total === 0)
+            return;
+        var newIndex = (index + total) % total;
+        setPantallaModal({
+            jugador: jugadoresOrdenadosPantallas[newIndex],
+            index: newIndex,
+            jugadores: jugadoresOrdenadosPantallas,
+        });
+    }
+    // --- Hamburger Menu Outside Click ---
+    useEffect(function () {
+        if (!menuOpen)
+            return;
+        function handleClickOutside(e) {
+            if (menuRef.current && !menuRef.current.contains(e.target)) {
+                setMenuOpen(false);
+            }
+        }
+        document.addEventListener("mousedown", handleClickOutside);
+        return function () { return document.removeEventListener("mousedown", handleClickOutside); };
+    }, [menuOpen]);
+    // --- Marcar reporte como revisado ---
+    function marcarRevisado(reporte) {
+        return __awaiter(this, void 0, void 0, function () {
+            var e_5;
+            return __generator(this, function (_a) {
+                switch (_a.label) {
+                    case 0:
+                        _a.trys.push([0, 3, , 4]);
+                        return [4 /*yield*/, props.dataApi.updateRow("cr5c8_reportejugador", reporte.cr5c8_reportejugadorid, {
+                                cr5c8_revisado: 1,
+                            })];
+                    case 1:
+                        _a.sent();
+                        setNotification({ type: "success", message: t("revisadoOk") });
+                        return [4 /*yield*/, fetchReportes()];
+                    case 2:
+                        _a.sent();
+                        return [3 /*break*/, 4];
+                    case 3:
+                        e_5 = _a.sent();
+                        setNotification({ type: "error", message: t("errorRevisado") });
+                        return [3 /*break*/, 4];
+                    case 4: return [2 /*return*/];
+                }
+            });
+        });
+    }
+    // --- Render ---
+    return (React.createElement("div", { dir: "ltr", style: {
+            minHeight: "100vh",
+            width: "100vw",
+            background: colors.fondo,
+            color: colors.texto,
+            fontFamily: "Segoe UI, Arial, sans-serif",
+            boxSizing: "border-box",
+            display: "flex",
+            flexDirection: "column",
+            overflow: "hidden",
+        } },
+        React.createElement("div", { style: {
+                position: "sticky",
+                top: 0,
+                zIndex: 10,
+                background: colors.tarjeta,
+                height: 64,
+                minHeight: 64,
+                width: "100%",
+                display: "flex",
+                alignItems: "center",
+                boxShadow: colors.sombra,
+                borderBottom: "2px solid ".concat(colors.superficie),
+            } },
+            React.createElement("div", { style: {
+                    color: colors.verde,
+                    fontWeight: 900,
+                    fontSize: 28,
+                    letterSpacing: 1,
+                    marginLeft: 32,
+                    marginRight: 8,
+                    userSelect: "none",
+                    display: "flex",
+                    alignItems: "center",
+                    position: "relative",
+                    height: 64,
+                } },
+                t("logo"),
+                React.createElement(Button, { appearance: "transparent", "aria-label": "Abrir men\u00FA", onClick: function () { return setMenuOpen(function (open) { return !open; }); }, style: {
+                        marginLeft: 12,
+                        color: colors.texto,
+                        background: "transparent",
+                        border: "none",
+                        borderRadius: colors.radioSmall,
+                        fontSize: 28,
+                        minWidth: 36,
+                        minHeight: 36,
+                        padding: 0,
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                        boxShadow: "none",
+                    }, tabIndex: 0 },
+                    React.createElement(HamburgerIcon, { color: colors.texto, size: 32 })),
+                menuOpen && (React.createElement("div", { ref: menuRef, style: {
+                        position: "absolute",
+                        left: "100%",
+                        top: "50%",
+                        transform: "translateY(-50%)",
+                        minWidth: 180,
+                        maxWidth: 420,
+                        background: colors.tarjeta,
+                        borderRadius: colors.radioSmall,
+                        boxShadow: colors.sombra,
+                        padding: "8px 0",
+                        zIndex: 100,
+                        border: "2px solid ".concat(colors.superficie),
+                        display: "flex",
+                        flexDirection: "row", // Horizontal menu
+                        gap: 24, // Space between menu items
+                        marginLeft: 16,
+                        alignItems: "center",
+                        height: "auto",
+                        overflowX: "auto", // Enable horizontal scroll
+                        overflowY: "hidden",
+                    } },
+                    React.createElement(MenuItem, { label: t("pantallas"), active: tab === "pantallas", color: colors, onClick: function () { return handleTab("pantallas"); }, horizontal: true }),
+                    React.createElement(MenuItem, { label: t("jugadores"), active: tab === "jugadores", color: colors, onClick: function () { return handleTab("jugadores"); }, horizontal: true }),
+                    React.createElement(MenuItem, { label: t("reportes"), active: tab === "reportes", color: colors, onClick: function () { return handleTab("reportes"); }, badge: pendingReportsCount > 0 ? pendingReportsCount : undefined, horizontal: true }))))),
+        React.createElement("div", { style: {
+                flex: 1,
+                display: "flex",
+                flexDirection: "column",
+                overflow: "hidden",
+                padding: 0,
+            } },
+            tab === "pantallas" && (React.createElement(PantallasTab, { jugadores: jugadores, loading: jugadoresLoading, error: jugadoresError, t: t, colors: colors, onCardClick: openPantallaModal })),
+            tab === "jugadores" && (React.createElement(JugadoresTab, { jugadores: jugadores.filter(function (j) {
+                    var _a;
+                    if (jugadorFiltro !== "Todos" && j.cr5c8_estado !== Number(jugadorFiltro))
+                        return false;
+                    if (jugadorBusqueda &&
+                        !((_a = j.cr5c8_nickname) === null || _a === void 0 ? void 0 : _a.toLowerCase().includes(jugadorBusqueda.toLowerCase())))
+                        return false;
+                    return true;
+                }).sort(function (a, b) { return (Number(b.cr5c8_indice_sospecha) || 0) - (Number(a.cr5c8_indice_sospecha) || 0); }), jugadoresRaw: jugadores, loading: jugadoresLoading, error: jugadoresError, t: t, colors: colors, estadoOptions: estadoOptions, filtro: jugadorFiltro, setFiltro: setJugadorFiltro, busqueda: jugadorBusqueda, setBusqueda: setJugadorBusqueda, seleccionado: jugadorSeleccionado, setSeleccionado: setJugadorSeleccionado, lastUpdate: lastUpdate, onActualizar: function () { return __awaiter(void 0, void 0, void 0, function () {
+                    return __generator(this, function (_a) {
+                        switch (_a.label) {
+                            case 0: return [4 /*yield*/, fetchJugadores()];
+                            case 1:
+                                _a.sent();
+                                setLastUpdate(new Date());
+                                return [2 /*return*/];
+                        }
+                    });
+                }); }, onAddJugador: function () { return setAddJugadorOpen(true); }, onDeleteJugador: handleDeleteJugador })),
+            tab === "reportes" && (React.createElement(ReportesTab, { reportes: reportes, loading: reportesLoading, error: reportesError, t: t, colors: colors, filtro: reporteFiltro, setFiltro: setReporteFiltro, seleccionado: reporteSeleccionado, setSeleccionado: setReporteSeleccionado, onMarcarRevisado: marcarRevisado }))),
+        pantallaModal && (React.createElement(JugadorCardModal, { jugador: pantallaModal.jugador, onClose: closePantallaModal, t: t, colors: colors, showArrows: true, onPrev: function () { return goToPantallaModal(pantallaModal.index - 1); }, onNext: function () { return goToPantallaModal(pantallaModal.index + 1); } })),
+        addJugadorOpen && (React.createElement(AddJugadorModal, { open: addJugadorOpen, onClose: function () { return setAddJugadorOpen(false); }, onAdd: function (data) { return __awaiter(void 0, void 0, void 0, function () {
+                return __generator(this, function (_a) {
+                    switch (_a.label) {
+                        case 0: return [4 /*yield*/, handleAddJugador(data)];
+                        case 1:
+                            _a.sent();
+                            setAddJugadorOpen(false);
+                            return [2 /*return*/];
+                    }
+                });
+            }); }, t: t, colors: colors, estadoOptions: estadoOptions })),
+        notification && (React.createElement("div", { style: {
+                position: "fixed",
+                bottom: 32,
+                left: "50%",
+                transform: "translateX(-50%)",
+                background: notification.type === "success"
+                    ? colors.verde
+                    : notification.type === "warning"
+                        ? colors.ambar
+                        : notification.type === "info"
+                            ? colors.superficie
+                            : colors.rojo,
+                color: notification.type === "success"
+                    ? "#222222"
+                    : notification.type === "warning"
+                        ? "#222222"
+                        : notification.type === "info"
+                            ? colors.texto
+                            : "#FFFFFF",
+                borderRadius: colors.radio,
+                boxShadow: colors.sombra,
+                padding: "16px 32px",
+                fontWeight: 600,
+                fontSize: 18,
+                zIndex: 1000,
+                minWidth: 240,
+                textAlign: "center",
+                transition: "opacity 0.3s",
+            } },
+            notification.message,
+            React.createElement(Button, { appearance: "subtle", style: {
+                    marginLeft: 16,
+                    color: colors.texto,
+                    background: "transparent",
+                    border: "none",
+                    minWidth: 32,
+                }, icon: React.createElement(DismissRegular, null), onClick: function () { return setNotification(null); }, "aria-label": "Cerrar notificaci\u00F3n" })))));
+};
+export default GeneratedComponent;

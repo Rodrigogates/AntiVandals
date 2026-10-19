@@ -1,0 +1,10 @@
+<mcpserver name="cr5c8_ModeratorView_MCPServer">
+  <description>MCP Server for app ModeratorView</description>
+  <displayname>ModeratorView MCP Server</displayname>
+  <iscustom>0</iscustom>
+  <iscustomizable>1</iscustomizable>
+  <isremote>0</isremote>
+  <serverurl>https://agent365.svc.cloud.microsoft/mcp/environments/ad1d2dc3-25ca-e5ff-b2a2-8f0329e2c41b/servers/cr5c8_ModeratorView_MCPServer</serverurl>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</mcpserver>

@@ -1,0 +1,11 @@
+<botcomponent schemaname="cr5c8_rbitro.topic.ConversationStart">
+  <componenttype>9</componenttype>
+  <description>Este tema del sistema se desencadena cuando el agente recibe una actividad que indica el inicio de una nueva conversación. Si no desea que el agente inicie la conversación, deshabilite este tema.</description>
+  <iscustomizable>0</iscustomizable>
+  <name>Inicio de la conversación</name>
+  <parentbotid>
+    <schemaname>cr5c8_rbitro</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

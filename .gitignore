@@ -1,0 +1,15 @@
+# Soluciones exportadas de Power Platform (se versiona la carpeta desempaquetada)
+*.zip
+
+# pac / herramientas
+*.log
+.vs/
+.vscode/
+bin/
+obj/
+
+# Sistema
+Thumbs.db
+desktop.ini
+.DS_Store
+~$*

@@ -1,0 +1,11 @@
+<botcomponent schemaname="cr5c8_rbitro.topic.Greeting">
+  <componenttype>9</componenttype>
+  <description>Este tema se desencadena cuando el usuario saluda al agente.</description>
+  <iscustomizable>0</iscustomizable>
+  <name>Saludo</name>
+  <parentbotid>
+    <schemaname>cr5c8_rbitro</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

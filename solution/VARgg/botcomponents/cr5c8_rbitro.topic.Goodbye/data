@@ -1,0 +1,41 @@
+kind: AdaptiveDialog
+startBehavior: CancelOtherTopics
+beginDialog:
+  kind: OnRecognizedIntent
+  id: main
+  intent:
+    displayName: Despedida
+    includeInOnSelectIntent: false
+    triggerQueries:
+      - Adiós
+      - Hasta pronto
+      - Hasta otra
+      - ¡Adiós!
+      - No, gracias. Adiós.
+      - No, gracias a ti, adiós.
+      - No, gracias a usted, adiós.
+      - ¡Hasta luego!
+
+  actions:
+    - kind: Question
+      id: question_zf2HhP
+      variable: Topic.EndConversation
+      prompt: ¿Le gustaría terminar nuestra conversación?
+      entity: BooleanPrebuiltEntity
+
+    - kind: ConditionGroup
+      id: condition_DGc1Wy
+      conditions:
+        - id: condition_DGc1Wy-item-0
+          condition: =Topic.EndConversation = true
+          actions:
+            - kind: BeginDialog
+              id: dn94DC
+              dialog: cr5c8_rbitro.topic.EndofConversation
+
+        - id: condition_DGc1Wy-item-1
+          condition: =Topic.EndConversation = false
+          actions:
+            - kind: SendActivity
+              id: sendMessage_LdLhmf
+              activity: Adelante. Estoy a la escucha.

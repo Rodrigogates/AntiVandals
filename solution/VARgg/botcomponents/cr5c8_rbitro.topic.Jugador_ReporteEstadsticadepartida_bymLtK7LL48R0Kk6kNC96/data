@@ -1,0 +1,5 @@
+kind: KnowledgeSourceConfiguration
+source:
+  kind: DataverseStructuredSearchSource
+  triggerCondition: true
+  skillConfiguration: Jugador_ReporteEstadsticadepartida_W_A_iQBVXTlhv8lyyZQOl

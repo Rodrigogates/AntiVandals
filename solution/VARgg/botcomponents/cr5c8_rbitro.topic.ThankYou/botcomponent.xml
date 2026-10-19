@@ -1,0 +1,11 @@
+<botcomponent schemaname="cr5c8_rbitro.topic.ThankYou">
+  <componenttype>9</componenttype>
+  <description>Este tema se desencadena cuando el usuario da las gracias.</description>
+  <iscustomizable>0</iscustomizable>
+  <name>Agradecimiento</name>
+  <parentbotid>
+    <schemaname>cr5c8_rbitro</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

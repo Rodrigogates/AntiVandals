@@ -1,0 +1,11 @@
+﻿player_id,nickname,nivel,elo,pais,fecha_alta,indice_sospecha,estado,motivos,origen
+sim-novapeak,NovaPeak,8,1720,ES,2022-10-02,0,Limpio,,Simulado
+sim-txuri_gorri,Txuri_Gorri,7,1540,ES,2024-01-25,0,Limpio,,Simulado
+sim-lacabraawp,LaCabraAWP,9,1910,ES,2020-12-31,0,Limpio,,Simulado
+sim-polvodemirage,PolvoDeMirage,6,1350,MX,2024-10-11,0,Limpio,,Simulado
+sim-elraton_pi,ElRaton_Pi,8,1690,AR,2023-03-11,0,Limpio,,Simulado
+sim-kuroneko,Kuroneko,10,2250,PT,2019-08-19,0,Limpio,,Simulado
+sim-bravoseis,BravoSeis,5,1180,ES,2025-04-09,0,Limpio,,Simulado
+sim-zurdo_eco,Zurdo_Eco,7,1500,CL,2026-08-02,20,Limpio,Cuenta creada hace 60 dias,Simulado
+sim-xx_headhunter_xx,xX_Headhunter_Xx,6,1390,ES,2023-09-27,80,En revision,HS% ultimas 3: 80% vs media 39% | K/D ultimas 3: 2.68 vs 1.04 | ADR ultimas 3: 126 vs 75 | 6 quads/aces en 3 partidas,Simulado
+sim-fresh_ace_2026,fresh_ace_2026,4,1050,ES,2026-09-10,100,En revision,HS% ultimas 3: 70% vs media 64% | Cuenta creada hace 21 dias | K/D ultimas 3: 2.77 vs 1.87 | ADR ultimas 3: 134 vs 115 | 4 quads/aces en 3 partidas,Simulado

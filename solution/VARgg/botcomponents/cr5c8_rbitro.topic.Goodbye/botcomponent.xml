@@ -1,0 +1,11 @@
+<botcomponent schemaname="cr5c8_rbitro.topic.Goodbye">
+  <componenttype>9</componenttype>
+  <description>Este tema se desencadena cuando el usuario se despide. De forma predeterminada, no finaliza la conversación. Si desea finalizar la conversación cuando el usuario se despida, puede agregar una acción "Fin de la conversación" a este tema o redirigir al tema del sistema "Fin de la conversación".</description>
+  <iscustomizable>0</iscustomizable>
+  <name>Despedida</name>
+  <parentbotid>
+    <schemaname>cr5c8_rbitro</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

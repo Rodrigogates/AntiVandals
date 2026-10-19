@@ -1,0 +1,10 @@
+<botcomponent schemaname="cr5c8_rbitro.topic.ResetConversation">
+  <componenttype>9</componenttype>
+  <iscustomizable>0</iscustomizable>
+  <name>Restablecer conversación</name>
+  <parentbotid>
+    <schemaname>cr5c8_rbitro</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

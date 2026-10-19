@@ -1,0 +1,40 @@
+kind: AdaptiveDialog
+beginDialog:
+  kind: OnRecognizedIntent
+  id: main
+  intent:
+    displayName: Volver a empezar
+    includeInOnSelectIntent: false
+    triggerQueries:
+      - empecemos de nuevo
+      - vamos a empezar de nuevo
+      - comencemos de nuevo
+      - volver a empezar
+      - volver a comenzar
+      - empezar de nuevo
+      - comenzar de nuevo
+      - reiniciar
+      - reanudar
+
+  actions:
+    - kind: Question
+      id: question_zguoVV
+      alwaysPrompt: false
+      variable: init:Topic.Confirm
+      prompt: ¿Seguro que desea reiniciar la conversación?
+      entity: BooleanPrebuiltEntity
+
+    - kind: ConditionGroup
+      id: conditionGroup_lvx2zV
+      conditions:
+        - id: conditionItem_sVQtHa
+          condition: =Topic.Confirm = true
+          actions:
+            - kind: BeginDialog
+              id: 0YKYsy
+              dialog: cr5c8_rbitro.topic.ResetConversation
+
+      elseActions:
+        - kind: SendActivity
+          id: sendMessage_lk2CyQ
+          activity: De acuerdo. Sigamos.

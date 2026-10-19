@@ -1,0 +1,25 @@
+kind: AdaptiveDialog
+beginDialog:
+  kind: OnRecognizedIntent
+  id: main
+  intent:
+    displayName: Saludo
+    includeInOnSelectIntent: false
+    triggerQueries:
+      - Buenas tardes
+      - Buenos días
+      - Hola
+      - ¿Qué tal?
+      - Hola.
+
+  actions:
+    - kind: SendActivity
+      id: sendMessage_abmysR
+      activity:
+        text:
+          - Hola, ¿en qué puedo ayudarle hoy?
+        speak:
+          - Hola, soy <break strength="medium" />. ¿En qué puedo ayudarle?
+
+    - kind: CancelAllDialogs
+      id: cancelAllDialogs_01At22

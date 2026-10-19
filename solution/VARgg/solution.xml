@@ -1,0 +1,148 @@
+<ImportExportXml version="9.2.26084.171" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.26084.171" OrganizationSchemaType="Full" CRMServerServiceabilityVersion="9.2.26084.00171">
+  <SolutionManifest>
+    <UniqueName>VARgg</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="VARgg" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.0.0.1</Version>
+    <Managed>0</Managed>
+    <Publisher>
+      <UniqueName>Cr99f13</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="CDS Default Publisher" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions />
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>cr5c8</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>50034</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode xsi:nil="true"></AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode xsi:nil="true"></ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode xsi:nil="true"></AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode xsi:nil="true"></ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="cr5c8_caso1" behavior="0" />
+      <RootComponent type="1" schemaName="cr5c8_estadisticadepartida1" behavior="0" />
+      <RootComponent type="1" schemaName="cr5c8_jugador1" behavior="0" />
+      <RootComponent type="62" schemaName="cr5c8_ModeratorView" behavior="0" />
+      <RootComponent type="80" schemaName="cr5c8_ModeratorView" behavior="0" />
+      <RootComponent type="80" schemaName="cr5c8_Sistemadereportesdeusuarios" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="1" schemaName="cr5c8_reportejugador" displayName="Reporte" solution="Active" />
+        <Dependent type="1" schemaName="cr5c8_caso1" displayName="Caso" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="cr5c8_reportejugador" displayName="Reporte" solution="Active" />
+        <Dependent type="1" schemaName="cr5c8_jugador1" displayName="Jugador" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="cr5c8_reportejugador" displayName="Reporte" solution="Active" />
+        <Dependent type="60" displayName="Principal" parentDisplayName="Caso" id="{5abef6b0-a1f7-4122-a89c-8d4f7e22aaa8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="cr5c8_reportejugador" displayName="Reporte" solution="Active" />
+        <Dependent type="62" schemaName="cr5c8_ModeratorView" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="10" schemaName="cr5c8_caso1_reportes" displayName="cr5c8_caso1_reportes" parentSchemaName="cr5c8_caso1" parentDisplayName="Caso" solution="Active" />
+        <Dependent type="60" displayName="Principal" parentDisplayName="Caso" id="{5abef6b0-a1f7-4122-a89c-8d4f7e22aaa8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="26" schemaName="Reporte Associated View" displayName="Reporte Associated View" parentSchemaName="cr5c8_reportejugador" parentDisplayName="Reporte" solution="Active" id="{1a4672f3-8a3c-450a-9010-fe1dfb312fc6}" />
+        <Dependent type="60" displayName="Principal" parentDisplayName="Caso" id="{5abef6b0-a1f7-4122-a89c-8d4f7e22aaa8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)">
+          <package appName="AppModule Web Resources Package" version="2.5">AppModuleWebResources (2.5)</package>
+        </Required>
+        <Dependent type="80" schemaName="cr5c8_ModeratorView" displayName="ModeratorView" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)">
+          <package appName="AppModule Web Resources Package" version="2.5">AppModuleWebResources (2.5)</package>
+        </Required>
+        <Dependent type="80" schemaName="cr5c8_Sistemadereportesdeusuarios" displayName="Sistema de reportes de usuarios" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="62" schemaName="cr5c8_Sistemadereportesdeusuarios" solution="Active" />
+        <Dependent type="80" schemaName="cr5c8_Sistemadereportesdeusuarios" displayName="Sistema de reportes de usuarios" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="SettingDefinition" displayName="AppChannel" solution="msdyn_AppFrameworkInfraExtensions (1.0.0.20)" id.uniquename="AppChannel">
+          <package appName="PowerAppsAppFramework Package" version="1.0.0.25">PowerAppsAppFramework_Anchor (1.0.0.25)</package>
+        </Required>
+        <Dependent type="AppSetting" displayName="parentappmoduleid.uniquename=cr5c8_ModeratorView,settingdefinitionid.uniquename=AppChannel" id.parentappmoduleid.uniquename="cr5c8_ModeratorView" id.settingdefinitionid.uniquename="AppChannel" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="SettingDefinition" displayName="AppChannel" solution="msdyn_AppFrameworkInfraExtensions (1.0.0.20)" id.uniquename="AppChannel">
+          <package appName="PowerAppsAppFramework Package" version="1.0.0.25">PowerAppsAppFramework_Anchor (1.0.0.25)</package>
+        </Required>
+        <Dependent type="AppSetting" displayName="parentappmoduleid.uniquename=cr5c8_Sistemadereportesdeusuarios,settingdefinitionid.uniquename=AppChannel" id.parentappmoduleid.uniquename="cr5c8_Sistemadereportesdeusuarios" id.settingdefinitionid.uniquename="AppChannel" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="SettingDefinition" displayName="m365copilotmodelappenabled" solution="msdyn_M365CopilotAppInfraSettings (9.2.0.5)" id.uniquename="m365copilotmodelappenabled">
+          <package appName="PowerAppsAppCopilotApp Package" version="9.2.0.5">msdyn_M365CopilotAppInfraSettings (9.2.0.5)</package>
+        </Required>
+        <Dependent type="AppSetting" displayName="parentappmoduleid.uniquename=cr5c8_Sistemadereportesdeusuarios,settingdefinitionid.uniquename=m365copilotmodelappenabled" id.parentappmoduleid.uniquename="cr5c8_Sistemadereportesdeusuarios" id.settingdefinitionid.uniquename="m365copilotmodelappenabled" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

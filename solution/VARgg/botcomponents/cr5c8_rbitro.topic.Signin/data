@@ -1,0 +1,19 @@
+kind: AdaptiveDialog
+beginDialog:
+  kind: OnSignIn
+  id: main
+  actions:
+    - kind: ConditionGroup
+      id: conditionGroup_ypjGKL
+      conditions:
+        - id: conditionItem_7XYIIR
+          condition: =System.SignInReason = SignInReason.SignInRequired
+          actions:
+            - kind: SendActivity
+              id: sendMessage_1jHUNO
+              activity: ¡Hola! Para poder ayudarle, necesitaré que inicie sesión.
+
+    - kind: OAuthInput
+      id: gOjhZA
+      title: Inicio de sesión
+      text: Para continuar, inicie sesión
